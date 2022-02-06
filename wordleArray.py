@@ -1,4 +1,4 @@
-var La = [
+words  = [
     "cigar",
     "rebut",
     "sissy",
