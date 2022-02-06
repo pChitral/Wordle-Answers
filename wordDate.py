@@ -29,3 +29,9 @@ print(wordsDateDataframe)
 
 #I've exported the dataframe into an excel file so y'all need not run the code 
 wordsDateDataframe.to_excel("Predicted_Wordle_Answers.xlsx")
+
+#creating html 
+htmlMaal = wordsDateDataframe.to_html()
+text_file = open("index.html", "w")
+text_file.write(htmlMaal)
+text_file.close()
