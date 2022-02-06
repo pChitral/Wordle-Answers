@@ -27,4 +27,5 @@ wordsDateDictionary = {
 wordsDateDataframe = pd.DataFrame(wordsDateDictionary)
 print(wordsDateDataframe)
 
+#I've exported the dataframe into an excel file so y'all need not run the code 
 wordsDateDataframe.to_excel("Predicted_Wordle_Answers.xlsx")
